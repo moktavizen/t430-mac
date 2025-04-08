@@ -1,3 +1,5 @@
+# T430 Mac
+
 > [!WARNING]  
 > Genereate your SMBIOS using [GenSMBIOS](/Users/thicc430/mountefi/MountEFI.command) and update your `config.plist` using [ProperTree](https://github.com/corpnewt/ProperTree) before using this EFI!
 
