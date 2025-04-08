@@ -37,8 +37,8 @@ Audio
 Camera
 ```
 
-**What's Not:**
+**TODO:**
 
-```bash
-"The disk you attached was not readable by this computer." always pop up after start
-```
+- [Fixing Power Management](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html)
+- [Fixing Sleep](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html)
+- [Fixing iServices](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
