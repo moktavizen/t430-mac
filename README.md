@@ -1,9 +1,10 @@
-# T430 Mac
+# T430 Mac - OpenCore EFI
 
 Download: https://github.com/moktavizen/t430-mac/releases
 
 > [!WARNING]  
-> Generate your SMBIOS info using [GenSMBIOS](/Users/thicc430/mountefi/MountEFI.command) and add them to `config.plist` using [ProperTree](https://github.com/corpnewt/ProperTree) before using this EFI!
+> Generate your SMBIOS data using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) before using this EFI!
+> See https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/ivy-bridge.html#platforminfo
 
 **Specs:**
 
