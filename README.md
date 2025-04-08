@@ -33,11 +33,11 @@ WiFi
 Bluetooth  
 USB  
 Input (keyboard, trackpad)
+Audio
 ```
 
 **What's Not:**
 
 ```bash
-No audio from internal speaker (bluetooth audio works fine)  
 Pop up "The disk you attached was not readable by this computer" after every start/boot
 ```
