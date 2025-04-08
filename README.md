@@ -5,6 +5,7 @@
 
 **Specs:**
 
+```bash
 Model: ThinkPad T430  
 MacOS: Big Sur  
 SMBIOS: MacBookPro11,2  
@@ -16,9 +17,11 @@ Ethernet: 82579LM
 WiFI: Intel 6205  
 Bluetooth: BCM20702  
 Audio: ALC3202
+```
 
 **What's Working:**
 
+```bash
 iGPU  
 Display + Night Shift  
 Ethernet  
@@ -26,8 +29,11 @@ WiFi
 Bluetooth  
 USB  
 Input (keyboard, trackpad)
+```
 
 **What's Not:**
 
+```bash
 No audio from internal speaker (bluetooth audio works fine)  
 Pop up "The disk you attached was not readable by this computer" after every start/boot
+```
