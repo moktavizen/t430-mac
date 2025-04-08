@@ -12,7 +12,8 @@ Download: https://github.com/moktavizen/t430-mac/releases
 ```bash
 Model: ThinkPad T430  
 MacOS: Big Sur  
-SMBIOS: MacBookPro11,2  
+SMBIOS: MacBookPro11,2
+Chipset: 7 Series
 CPU: i7-3632QM Ivy Bridge  
 GPU: Intel HD 4000  
 RAM: 16GB  
