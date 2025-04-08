@@ -4,6 +4,7 @@ Download: https://github.com/moktavizen/t430-mac/releases
 
 > [!WARNING]  
 > Generate your SMBIOS data using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) before using this EFI!
+> 
 > See https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/ivy-bridge.html#platforminfo
 
 **Specs:**
