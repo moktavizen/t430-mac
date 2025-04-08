@@ -34,10 +34,11 @@ Bluetooth
 USB  
 Input (keyboard, trackpad)
 Audio
+Camera
 ```
 
 **What's Not:**
 
 ```bash
-Pop up "The disk you attached was not readable by this computer" after every start/boot
+"The disk you attached was not readable by this computer." always pop up after start
 ```
