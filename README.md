@@ -3,7 +3,7 @@
 Download: https://github.com/moktavizen/t430-mac/releases
 
 > [!WARNING]  
-> Generate your SMBIOS using [GenSMBIOS](/Users/thicc430/mountefi/MountEFI.command) and update your `config.plist` using [ProperTree](https://github.com/corpnewt/ProperTree) before using this EFI!
+> Generate your SMBIOS info using [GenSMBIOS](/Users/thicc430/mountefi/MountEFI.command) and add them to `config.plist` using [ProperTree](https://github.com/corpnewt/ProperTree) before using this EFI!
 
 **Specs:**
 
