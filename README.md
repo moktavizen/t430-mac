@@ -40,6 +40,6 @@ Camera
 
 **TODO:**
 
-- [Fixing Power Management](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html)
+- ~~[Fixing Power Management](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html)~~
 - [Fixing Sleep](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html)
 - [Fixing iServices](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
