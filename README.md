@@ -1,45 +1,52 @@
-# T430 Mac - OpenCore EFI
+# T430 macOS Sonoma OpenCore
+
+![macOS 14 Sonoma preivew](./preview.png)
 
 Download: https://github.com/moktavizen/t430-mac/releases
 
-> [!WARNING]  
-> Generate your SMBIOS data using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) before using this EFI!
-> 
-> See https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/ivy-bridge.html#platforminfo
+<table>
+<tr>
+<th>Specs</th>
+<th>Features</th>
+</tr>
+<tr>
+<td align="center" valign="top" width="441">
 
-**Specs:**
+| Part      | Name             |
+| :---------| :--------------- |
+| Model     | ThinkPad T430    |
+| Chipset   | 7 Series         |
+| CPU       | Intel i7-3632QM  |
+| GPU       | Intel HD 4000    |
+| RAM       | 16GB             |
+| Storage   | 256GB SSD        |
+| Display   | 14 inch 1600x900 |
+| Ethernet  | 82579LM          |
+| WiFi      | Intel 6205       |
+| Bluetooth | BCM20702         |
+| Audio     | ALC3202          |
 
-```bash
-Model: ThinkPad T430  
-MacOS: Big Sur  
-SMBIOS: MacBookPro11,2
-Chipset: 7 Series
-CPU: i7-3632QM Ivy Bridge  
-GPU: Intel HD 4000  
-RAM: 16GB  
-Storage: 256GB SSD + 320GB HDD  
-Ethernet: 82579LM  
-WiFI: Intel 6205  
-Bluetooth: BCM20702  
-Audio: ALC3202
-```
+</td>
+<td align="center" valign="top" width="441">
 
-**What's Working:**
+| Tested           | Untested   |
+| :--------------- | :--------- |
+| Power Management | Sleep<sup>[1]</sup> |
+| iGPU             | Continuity<sup>[2]</sup> |
+| WiFi             |            |
+| Bluetooth        |            |
+| Audio            |            |
+| Camera           |            |
+| Color Profile    |            |
+| Night Shift      |            |
+| USB Ports        |            |
+| Keyboard         |            |
+| Trackpad         |            |
+| Trackpoint       |            |
 
-```bash
-iGPU  
-Display + Night Shift  
-Ethernet  
-WiFi  
-Bluetooth  
-USB  
-Input (keyboard, trackpad)
-Audio
-Camera
-```
+</td>
+</tr>
+</table>
 
-**TODO:**
-
-- ~~[Fixing Power Management](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html)~~
-- [Fixing Sleep](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html)
-- [Fixing iServices](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
+1. The battery health is already borked anyway.
+2. I've never use it before.
